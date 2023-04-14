@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    top: 0;
+    height: 100px;
+    background-color: lightblue;
+}
+
+header,
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    bottom: 0;
+    height: 100px;
+    background-color: darkgrey;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.lightpink {
+    padding: 37.5%;
+    background-color: lightpink;
+}
+
+.cadetblue {
+    padding: 12.5%;
+    background-color: cadetblue;
+}
